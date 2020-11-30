@@ -1,9 +1,5 @@
-# INDI1 Support
-## EclipseIR INDIface SDK1 Support
-### README.md
+# Incoming
 
-Repository URL https://github.com/TOtto-EclipseIR/INDI1-Support.git
+Aggregating splintered INDIface Face Image Processing Repositories for EclipseIR.
 
-Contains EclipseIR trade secrets.
-
-Copyright :copyright: 2007-2020, Eclipse Identity Recognition Corporation. All rights reserved worldwide. For more information consult `IP-RIGHT.md` in this directory.
+Copyright &copy; 1993-2020 Eclipse Identity Recognition Corporation. All rights reserved worldwide. See the adjacent LICENSE.txt file for details.
