@@ -1,4 +1,11 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    eirBase
+    base \
+    core \
+    exe \
+    gui \
+    widget \
+
+core.depends = base
+

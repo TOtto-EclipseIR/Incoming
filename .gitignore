@@ -35,8 +35,12 @@ Makefile*
 target_wrapper.*
 
 # QtCreator
-
 *.autosave
+
+#QMake Shadow Build
+build-*-Debug
+build-*-Profile
+build-*-Release
 
 # QtCtreator Qml
 *.qmlproject.user

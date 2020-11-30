@@ -1,5 +1,3 @@
 #include "eirBase.h"
 
-eirBase::eirBase()
-{
-}
+eirBase::eirBase() {;}

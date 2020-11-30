@@ -3,4 +3,5 @@ TEMPLATE = subdirs
 SUBDIRS += \
     apps \
     libs \
-	plugins \
+
+apps.depends = libs
