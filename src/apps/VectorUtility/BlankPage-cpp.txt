@@ -1,0 +1,16 @@
+#include "BlankPage-h.txt"
+
+#include <QTimer>
+
+#include "Debug.h"
+
+BlankPage::BlankPage(CentralStack * parent)
+    : AbstractCentralPage(parent)
+{
+    TRACEFN()
+    setObjectName("BlankPage");
+    setNames();
+    connect(this, &BlankPage::ctorFinished,
+            this, &BlankPage::startSetup);
+    emit ctorFinished();
+}
